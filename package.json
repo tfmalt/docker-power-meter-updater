@@ -1,0 +1,11 @@
+{
+  "name": "docker-power-meter-updater",
+  "version": "1.0.0",
+  "description": "Dockerfile to run power-meter-updater in a container",
+  "main": "index.js",
+  "author": "Thomas Malt <thomas@malt.no>",
+  "license": "MIT",
+  "dependencies": {
+    "power-meter-monitor": "^2.5.13"
+  }
+}
