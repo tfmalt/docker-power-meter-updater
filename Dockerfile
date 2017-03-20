@@ -8,7 +8,7 @@ WORKDIR /usr/lib/power
 COPY package.json /usr/lib/power
 RUN npm install
 
-ENV NODE_ENV=production
+ENV NODE_ENV=docker
 
 CMD ./node_modules/.bin/power-meter-updater
 
