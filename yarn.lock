@@ -50,19 +50,29 @@ colors@1.0.x:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.0.3.tgz#0433f44d809680fdeb60ed260f1b0c262e82a40b"
 
-cron-emitter@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/cron-emitter/-/cron-emitter-0.2.2.tgz#c6f22efb001d294d30630df2798f733cec789b71"
+cron-emitter@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/cron-emitter/-/cron-emitter-1.2.2.tgz#79541e5f373ea2a3cd7b7387145c14d65d73b0a8"
   dependencies:
-    cron-parser "^0.6.1"
+    cron-parser "^2.3.1"
 
-cron-parser@^0.6.1:
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/cron-parser/-/cron-parser-0.6.4.tgz#884d940b996177f3770bf14e59b2cf3280b30414"
+cron-parser@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/cron-parser/-/cron-parser-2.3.1.tgz#2c01573ac1cbaf938136b727b640de61a29b5117"
+  dependencies:
+    is-nan "^1.2.1"
+    moment-timezone "^0.5.0"
 
 cycle@1.0.x:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/cycle/-/cycle-1.0.3.tgz#21e80b2be8580f98b468f379430662b046c34ad2"
+
+define-properties@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.1.2.tgz#83a73f2fea569898fb737193c8f873caf6d45c94"
+  dependencies:
+    foreach "^2.0.5"
+    object-keys "^1.0.8"
 
 double-ended-queue@^2.1.0-0:
   version "2.1.0-0"
@@ -76,11 +86,21 @@ eyes@0.1.x:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/eyes/-/eyes-0.1.8.tgz#62cf120234c683785d902348a800ef3e0cc20bc0"
 
+foreach@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
+
 has-ansi@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/has-ansi/-/has-ansi-2.0.0.tgz#34f5049ce1ecdf2b0649af3ef24e45ed35416d91"
   dependencies:
     ansi-regex "^2.0.0"
+
+is-nan@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/is-nan/-/is-nan-1.2.1.tgz#9faf65b6fb6db24b7f5c0628475ea71f988401e2"
+  dependencies:
+    define-properties "^1.1.1"
 
 isstream@0.1.x:
   version "0.1.2"
@@ -97,17 +117,31 @@ minimist@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
 
+moment-timezone@^0.5.0:
+  version "0.5.11"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.11.tgz#9b76c03d8ef514c7e4249a7bbce649eed39ef29f"
+  dependencies:
+    moment ">= 2.6.0"
+
+"moment@>= 2.6.0":
+  version "2.18.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
+
+object-keys@^1.0.8:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.0.11.tgz#c54601778ad560f1142ce0e01bcca8b56d13426d"
+
 pkginfo@0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/pkginfo/-/pkginfo-0.4.0.tgz#349dbb7ffd38081fcadc0853df687f0c7744cd65"
 
-power-meter-updater@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/power-meter-updater/-/power-meter-updater-3.0.2.tgz#de9c15bb8bd611b13e48c06466ed54251b085c72"
+power-meter-updater@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/power-meter-updater/-/power-meter-updater-3.2.0.tgz#190a14deae890e1d52b390a9d7e6597573a0d04a"
   dependencies:
     args "^2.3.0"
     bluebird "^3.5.0"
-    cron-emitter "^0.2.2"
+    cron-emitter "^1.2.2"
     redis "^2.7.0"
     winston "^2.3.1"
 

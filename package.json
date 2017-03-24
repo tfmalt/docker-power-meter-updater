@@ -1,11 +1,15 @@
 {
   "name": "docker-power-meter-updater",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Dockerfile to run power-meter-updater in a container",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tfmalt/docker-power-meter-updater.git"
+  },
   "main": "index.js",
   "author": "Thomas Malt <thomas@malt.no>",
   "license": "MIT",
   "dependencies": {
-    "power-meter-updater": "^3.0.2"
+    "power-meter-updater": "^3.2.0"
   }
 }
