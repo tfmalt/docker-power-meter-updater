@@ -1,6 +1,6 @@
 {
   "name": "docker-power-meter-updater",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Dockerfile to run power-meter-updater in a container",
   "repository": {
     "type": "git",
@@ -10,6 +10,6 @@
   "author": "Thomas Malt <thomas@malt.no>",
   "license": "MIT",
   "dependencies": {
-    "power-meter-updater": "^3.2.0"
+    "power-meter-updater": "^3.2.1"
   }
 }

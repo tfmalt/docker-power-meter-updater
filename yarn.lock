@@ -135,9 +135,9 @@ pkginfo@0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/pkginfo/-/pkginfo-0.4.0.tgz#349dbb7ffd38081fcadc0853df687f0c7744cd65"
 
-power-meter-updater@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/power-meter-updater/-/power-meter-updater-3.2.0.tgz#190a14deae890e1d52b390a9d7e6597573a0d04a"
+power-meter-updater@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/power-meter-updater/-/power-meter-updater-3.2.1.tgz#04890b533dfb0758631222a5614050a85705e6b8"
   dependencies:
     args "^2.3.0"
     bluebird "^3.5.0"
